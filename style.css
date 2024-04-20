@@ -9,7 +9,7 @@
 
 body {
   min-height: 100vh;
-  background: url("resources/background.gif") no-repeat fixed;
+  background: url("background.gif") no-repeat fixed;
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(100px);
