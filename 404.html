@@ -4,7 +4,7 @@
   <meta name="theme-color" content="#fff">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,
                                  maximum-scale=1.0, user-scalable=no">
-  <title>chrome://network-error/-404</title>
+  <title>Error 404: Page not found</title>
   <style>/* Copyright 2017 The Chromium Authors
  * Use of this source code is governed by a BSD-style license that can be
  * found in the LICENSE file. */
@@ -6714,10 +6714,10 @@ document.addEventListener('DOMContentLoaded', onDocumentLoad);
       <div class="icon icon-generic" jstcache="0"></div>
       <div id="main-message" jstcache="0">
         <h1 jstcache="0">
-          <span jsselect="heading" jsvalues=".innerHTML:msg" jstcache="9">This site can’t be reached</span>
+          <span jsselect="heading" jsvalues=".innerHTML:msg" jstcache="9">Error 404: Page not found</span>
           <a id="error-information-button" class="hidden" onclick="toggleErrorInformationPopup();" jstcache="0"></a>
         </h1>
-        <p jsselect="summary" jsvalues=".innerHTML:msg" jstcache="1">The web page at <strong jscontent="failedUrl" jstcache="22">chrome://network-error/-404</strong> might be temporarily down or it may have moved permanently to a new web address.</p>
+        <p jsselect="summary" jsvalues=".innerHTML:msg" jstcache="1">The web page you have tried to search for does not exist.</p>
         <!--The suggestion list and error code are normally presented inline,
           in which case error-information-popup-* divs have no effect. When
           error-information-popup-container has the use-popup-container class, this
@@ -6732,7 +6732,7 @@ document.addEventListener('DOMContentLoaded', onDocumentLoad);
                     <li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="21"></li>
                   </ul>
                 </div>
-                <div class="error-code" jscontent="errorCode" jstcache="17">ERR_CACHE_OPEN_FAILURE</div>
+                <div class="error-code" jscontent="errorCode" jstcache="17">ERR_404_PAGE_NOT_FOUND</div>
                 <p id="error-information-popup-close" jstcache="0">
                   <a class="link-button" jscontent="closeDescriptionPopup" onclick="toggleErrorInformationPopup();" jstcache="20">null</a>
                 </p>
